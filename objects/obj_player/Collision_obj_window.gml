@@ -32,4 +32,12 @@ if(vspeed > 0)
 	/// @DnDArgument : "layer" ""Player""
 	/// @DnDSaveInfo : "objectid" "obj_jump_effect"
 	instance_create_layer(x + 0, other.y, "Player", obj_jump_effect);
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 3A0CEA71
+	/// @DnDParent : 73510FE9
+	/// @DnDArgument : "soundid" "snd_player_jump"
+	/// @DnDSaveInfo : "soundid" "snd_player_jump"
+	audio_play_sound(snd_player_jump, 0, 0);
 }
