@@ -11,8 +11,8 @@ if(global.score_rescue > global.highscore_rescue)
 	/// @DnDHash : 5CFB6B75
 	/// @DnDParent : 65548339
 	/// @DnDArgument : "expr" "global.score_rescue"
-	/// @DnDArgument : "var" "global.highscore_rescue"
-	global.highscore_rescue = global.score_rescue;
+	/// @DnDArgument : "var" "global.highscore_height"
+	global.highscore_height = global.score_rescue;
 
 	/// @DnDAction : YoYo Games.Particles.Part_Particles_Create
 	/// @DnDVersion : 1
